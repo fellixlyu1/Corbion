@@ -10,9 +10,9 @@ from PyQt5.QtWidgets import (
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Select Excel File")
+        self.setWindowTitle("Corbion Badge System")
 
-        name = QGroupBox('Ashley')
+        name = QGroupBox('Corbion')
         layout = QVBoxLayout()
 
         # Create a button to open the file dialog
